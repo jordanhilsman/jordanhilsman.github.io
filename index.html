@@ -7,6 +7,31 @@
 body {
   background-image: url('./imgs/helmet.jpg');
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
 </style> 
 <title> 
 Jordan Hilsman Github.io
@@ -17,22 +42,13 @@ Jordan Hilsman Github.io
 <p>I am currently a graduate student at the <b>University of Pittsburgh</b> studying Health Informatics, with a concentration in data science.
 I am interested in machine learning and AI approaches to clinical care and healthcare outcomes.</p>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-      <div id="navbarColor01">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="pages/publications.html">Publications</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="pages/fun.html">Fun</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  	<br></br>  
+<ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="about.html">About</a></li>
+  <li><a href="./pages/publications.html">Publications</a></li>
+  <li><a href="./pages/projects.html">Projects</a></li>
+  <li><a href="./pages/links.html">Links</a></li>
+</ul>
 
 </body>
 </html>
